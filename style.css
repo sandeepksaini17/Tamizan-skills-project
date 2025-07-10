@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(170, 107, 228);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size: 3rem;
+    
+}
+.leftsection .buttons{
+    padding: 50px 0;
+}
+.leftsection .btn:hover{
+     color: rgb(170, 107, 228);
+    font-size: 1.1rem;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.rightsection img{
+   width: 80% ;
+   
+}
+.purple{
+    color: blueviolet;
+}
+#element{
+    color: rgb(170, 107, 228);
+}
